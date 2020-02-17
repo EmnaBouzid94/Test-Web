@@ -1,0 +1,103 @@
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.profil-theme{
+  width:100%;
+  height: 400px;
+}
+.profil-photo{
+  width:300px;
+  margin-top: -150px;
+  border-radius: 100%;
+}
+.following-button{
+  height: 50px;
+  width:100px;
+  color: black;
+  
+}
+.link{
+  text-decoration: none;
+  color: #9D4795;
+  font-weight: bolder;
+}
+.profil-page{
+  text-align: center;
+}
+.posts-page{
+  text-align: center;
+}
+.post-page{
+  text-align: center;
+}
+.profil{
+  border-radius: 10%;
+  border: 1px solid;
+  width:30%;
+  height:auto;
+  margin:10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.profil button{
+  align-self: center;
+  height: 50px;
+  width:100px;
+  color: black;
+}
+.profils{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.post{
+  border-radius: 10px;
+  border: 1px solid;
+  width:30%;
+  height:auto;
+  margin:10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.post button{
+  align-self: center;
+  height: 50px;
+  width:100px;
+  color: black;
+}
+.posts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.post-comments{
+  border-radius: 10px;
+  border: 1px solid;
+  width:70%;
+  overflow: hidden;
+  margin: 0px 200px ;
+}
+
+h1{
+  color: #9D4795;
+  
+}
+h2{
+color:slateblue
+}
+h3{
+color:skyblue
+}
+strong{
+  color: slateblue;
+  text-decoration: underline;
+}
